@@ -1,0 +1,73 @@
+.LOGIN{
+  height: 100%;
+  background-color: #76b852;
+
+  h2{
+    position: absolute;
+    font-size: 46px;
+    color: white;
+    left: 50%;
+    margin-left: -127px;
+    top: 50%;
+    margin-top: -240px;
+  }
+  .login-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    display: inline-block;
+    padding: 45px;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+
+    .login-row{
+      width:100%;
+
+      span {
+        display: inline-block;
+        width: 80px;
+        text-align: right;
+        margin-right: 10px;
+      }
+      input{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        line-height: 46px;
+        height: 46px;
+      }
+    }
+    .message{
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #ff7473;
+    }
+    .forgot-pw{
+      display: inline-block;
+      margin-bottom: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button{
+      outline: 0;
+      background: #4CAF50;
+      width: 100%;
+      line-height: 46px;
+      height: 46px;
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
